@@ -6,6 +6,12 @@ Program ini merupakan solver dari 15 puzzle memanfaatkan konsep Branch and Bound
 ## Requirements (Windows)
 Telah menginstall python 3 pada PC. Untuk instalasi python dapat dilihat pada https://realpython.com/installing-python/
 
+Telah menginstall numpy. numpy dapat di-install menggunakan perintah berikut di commandprompt atau shell
+
+```shell
+pip install numpy
+```
+
 ## Cara mengcompile dan menjalankan program
 1. Download repo ini dalam bentuk zip melalui website github lalu ekstrak file zip tersebut
 
@@ -13,7 +19,7 @@ Telah menginstall python 3 pada PC. Untuk instalasi python dapat dilihat pada ht
 
 3. Jalankan cmd pada folder tersebut
 
-4. Pada command prompt jalankan perintah "python main.py" atau "main.py"
+4. Pada command prompt jalankan perintah "python main.py"
 
 5. Program akan terbuka di command prompt
 

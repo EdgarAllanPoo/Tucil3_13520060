@@ -22,8 +22,7 @@ choice = int(input("Tipe input pilihan anda: "))
 print()
 
 if (choice == 1) :
-    #root = SearchState(PuzzleBoard("../test/", 1), None, "", 0)
-    print("gajadi")
+    root = SearchState(PuzzleBoard("../test/", 1), None, "", 0)
 elif (choice == 2) :    
     # Input nama file
     filename = input("Masukkan nama file: ")

@@ -1,4 +1,4 @@
-#import numpy as np
+import numpy as np
 import copy
 from priorityQueue import PriorityQueue
 
@@ -8,10 +8,13 @@ class PuzzleBoard:
     def __init__(self, path, cc):
         self.board = [[0, 0, 0, 0],[0, 0, 0, 0],[0, 0, 0, 0],[0, 0, 0, 0]]
         if(cc == 1) :
-            print("gajadi")
-            #mat = np.arange(0,16)
-            #np.random.shuffle(mat)
-            #self.board = np.reshape(mat, (4, 4))
+            mat = np.arange(1,17)
+            np.random.shuffle(mat)
+            self.board = np.reshape(mat, (4, 4))
+            for i in range(4):
+                for j in range(4):
+                    tmp = self.board[i][j]
+                    self.board[i][j] = int(tmp)
         else :
             f = open(path, "r")
             rowCount = 0
